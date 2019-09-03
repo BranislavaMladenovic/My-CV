@@ -1,0 +1,219 @@
+body {
+  background-color: #cccccc;
+  background-color: lightblue;
+  background-size:cover;
+  background-position:center;
+
+  color: #40514E;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+ /* font-family: 'Caveat', serif;*/
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size:5.625rem;
+  margin: 50px auto 0px auto;
+  font-family: 'Caveat', cursive;
+ /* font-family: 'Sacramento', cursive;
+  font-weight: bold;*/
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Caveat', serif;
+  font-size: 3.5rem;
+  color: #66BFBF;
+ /* font-weight: normal;*/
+  color:white;
+  font-weight: bold;
+  padding-bottom: 10px;
+
+}
+
+.subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: bold;
+  padding-bottom: 10px;
+
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #EAF6F6;
+  font-weight: bold;
+  font-color: #EAF6F6;
+ /* color: #11999E;*/
+}
+
+p {
+  line-height: 1.4;
+  color:white;
+  font-weight: bold;
+  font-size: 1.2rem;
+
+}
+
+hr {
+  border: 10px solid aqua ;
+  border-bottom: none;
+  width: 12%;
+  margin: 70px auto;
+  
+}
+
+.picture {
+  margin-top: 40px;
+  width: 22%;
+  border-radius: 100%;
+  border:2px solid aqua;
+
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+span {
+  text-decoration: underline;
+  letter-spacing: 2px;
+  font-size:1.8rem;
+  font-weight: bold;
+
+}
+
+.middle-container {
+   /*background-image: url("../images/blue-binary.jpg");
+   background-image: url("../images/background.jpg");*/
+   
+  /* background-image: url("../images/blue-binary.light.jpg");*/
+  background-image: url("../images/blue-binary.jpg");
+   background-image: url("../images/binary-abstract.jpg");
+   background-repeat: no-repeat;
+   background-color: #cccccc;
+   background-size:cover;
+   background-position:center;
+   margin: 80px 0;
+  
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.intro1 {
+  width: 70%;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 70px;
+}
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  height:30%;
+
+}
+
+.skill-row {
+  width: 60%;
+  margin: 70px auto 70px auto;
+  text-align: left;
+ /* font-color: #EAF6F6;*/
+
+}
+
+.top-cloud {
+ position: absolute;
+ right: 300px;
+ top: 40px;
+ border-radius:20%;
+
+}
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom:240px;
+  border-radius:20%;
+
+}
+
+.center{
+  
+  width: 13%;
+  margin-top:20px;
+  border-radius:50%;
+  border: solid 2px lightblue;
+
+}
+
+a {
+   color: #EAF6F6;
+  /*color: #11999E;*/
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  /*color: #EAF6F6;*/
+  /* color: #11999E;*/
+  color: darkblue;
+}
+.mathematics {
+  width: 32%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 20% 0 20% 0;
+}
+
+.programming {
+  width: 32%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 20% 0 20% 0;
+}
+
+.butn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  /*margin-top:5px;*/
+}
+
+.butn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.copyright {
+  color: #EAF6F6;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  padding: 20px 0;
+}
